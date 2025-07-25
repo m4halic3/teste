@@ -1,10 +1,13 @@
+import Home from "./pages/Home/Home"
+import Hero from "./pages/Home/sections/About/Hero/Hero"
+
 const  App = () => {
 
   return (
     <>
       <div>
-        <h1>Hello world</h1>
-        <button>Fazer requisção</button>
+        <Home/>
+        <Hero/>
       </div>
     </>
   )
